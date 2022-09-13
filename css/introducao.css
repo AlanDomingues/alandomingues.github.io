@@ -1,0 +1,53 @@
+.introducao {
+  max-width: 1200px;
+  padding: 70px;
+  margin: 0 auto;
+  display: flex;
+}
+.introducao h1 {
+  font-size: 5rem;
+  margin: 50px;
+  position: relative;
+}
+.introducao .left {
+  font-size: 5rem;
+
+  color: #6d0ec0;
+}
+.introducao .right {
+  font-size: 5rem;
+
+  color: #6d0ec0;
+}
+.introducao .detalhe {
+  font-size: 5rem;
+  color: #6d0ec0;
+}
+@media (max-width: 1200px) {
+  .introducao h1 {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 800px) {
+  .introducao h1 {
+    font-size: 3rem;
+    text-transform: capitalize;
+    max-width: initial;
+    text-align: center;
+  }
+}
+
+@media (max-width: 800px) {
+  .left {
+    text-align: center;
+    display: none;
+  }
+  .right {
+    text-align: center;
+    display: none;
+  }
+  .detalhe {
+    text-align: center;
+    display: none;
+  }
+}
